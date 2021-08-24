@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testGetAllItems()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testGetAllItems(VendingMachineServiceLayerImplTest.java:58)
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testValidateAmount()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testValidateAmount(VendingMachineServiceLayerImplTest.java:74)
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testUpdateItem()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testUpdateItem(VendingMachineServiceLayerImplTest.java:90)
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testGetItem()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testGetItem(VendingMachineServiceLayerImplTest.java:105)
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testValidateItemAvail()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImplTest.testValidateItemAvail(VendingMachineServiceLayerImplTest.java:120)
+
